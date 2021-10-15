@@ -1,11 +1,14 @@
 from selenium.webdriver import Firefox
 from bs4 import BeautifulSoup
+from twilio.rest import Client
 import time
+
 
 
 class WebsiteChecker(object):
 
     def __init__(self):
+        self.id = ''
         self.driver = None
         self.search_url = ''
         self.listings_search = {}
@@ -13,13 +16,10 @@ class WebsiteChecker(object):
         self.current_listings = []
         self.previous_listings = []
 
-    def load(self):
+    def load(self, driver: Firefox):
         self.set_parameters()
         self.load_previous_listings()
-        self.driver = Firefox()
-        time.sleep(2)
-        self.driver.get(self.search_url)
-        time.sleep(2)
+        self.driver = driver
 
     def load_previous_listings(self):
         with open(self.previous_listings_file_name) as in_file:
@@ -31,6 +31,8 @@ class WebsiteChecker(object):
         pass
 
     def parse(self):
+        self.driver.get(self.search_url)
+        time.sleep(2)
         soup = BeautifulSoup(self.driver.page_source, features="lxml")
         listings = soup.find_all(attrs=self.listings_search)
         for listing in listings:
@@ -38,7 +40,6 @@ class WebsiteChecker(object):
                 self.current_listings.append(listing.text)
 
     def exit(self):
-        self.driver.close()
         self.write_previous_listings_file()
 
     def write_previous_listings_file(self):
@@ -46,7 +47,14 @@ class WebsiteChecker(object):
             for listing in self.current_listings:
                 out_file.write(f"{listing}\n")
 
-    def run(self):
-        self.load()
-        self.parse()
-        self.exit()
+    def run(self, driver):
+        try:
+            self.load(driver)
+            self.parse()
+            self.exit()
+        except Exception as e:
+            return e
+
+    @property
+    def has_new_listings(self):
+        return len(self.current_listings) > 0
