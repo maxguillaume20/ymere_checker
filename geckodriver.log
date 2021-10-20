@@ -640,3 +640,275 @@ JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1634661892076	geckodriver	INFO	Listening on 127.0.0.1:55322
+1634661895135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55323" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile0LOhfF"
+1634661895521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile0LOhfF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55323/devtools/browser/731abcce-8c32-4060-aa96-8d46036f69c7
+1634661898273	Marionette	INFO	Listening on port 55328
+1634661898334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 367: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634661954027	Marionette	INFO	Stopped listening on port 55328
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634662024859	geckodriver	INFO	Listening on 127.0.0.1:55501
+1634662027906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55502" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile804PYU"
+1634662028278	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile804PYU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55502/devtools/browser/53345d9f-1779-454c-88c6-75b4199dc5ef
+1634662031053	Marionette	INFO	Listening on port 55508
+1634662031091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 367: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634662081347	Marionette	INFO	Stopped listening on port 55508
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634663140491	geckodriver	INFO	Listening on 127.0.0.1:56042
+1634663143547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56043" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileXdqmhW"
+1634663143922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileXdqmhW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56043/devtools/browser/cf15c6b5-0a04-4c9e-8eb1-9b27580a07f7
+1634663146824	Marionette	INFO	Listening on port 56048
+1634663147234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 367: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634663169823	Marionette	INFO	Stopped listening on port 56048
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634663685195	geckodriver	INFO	Listening on 127.0.0.1:56531
+1634663688272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56532" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile8OTE9e"
+1634663688671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile8OTE9e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56532/devtools/browser/51c29eca-7c81-403d-9598-3e27493c53d4
+1634663691520	Marionette	INFO	Listening on port 56537
+1634663691968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 367: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634663715194	Marionette	INFO	Stopped listening on port 56537
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634663733179	geckodriver	INFO	Listening on 127.0.0.1:56681
+1634663736255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56682" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileoY4dpH"
+1634663736621	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileoY4dpH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56682/devtools/browser/71431827-4d85-4d11-940a-2d91dc7f2ec5
+1634663739511	Marionette	INFO	Listening on port 56687
+1634663739958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634663747129	Marionette	INFO	Stopped listening on port 56687
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634663785399	geckodriver	INFO	Listening on 127.0.0.1:56755
+1634663788498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56756" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileErVbcO"
+1634663788862	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileErVbcO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56756/devtools/browser/3a0da919-c62f-4048-b272-f657c4020585
+1634663791562	Marionette	INFO	Listening on port 56761
+1634663791679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634663800740	Marionette	INFO	Stopped listening on port 56761
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634663813333	geckodriver	INFO	Listening on 127.0.0.1:56824
+1634663816417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56825" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileY5suxL"
+1634663816796	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileY5suxL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56825/devtools/browser/2aff56a0-3964-4e42-b399-3f317fb8bc97
+1634663819679	Marionette	INFO	Listening on port 56830
+1634663820127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634663826649	Marionette	INFO	Stopped listening on port 56830
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634663957283	geckodriver	INFO	Listening on 127.0.0.1:57045
+1634663960333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57046" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile0UQW7a"
+1634663960698	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile0UQW7a\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57046/devtools/browser/aa33dd11-c7c4-4ab5-babc-2f08f3c87a95
+1634663963600	Marionette	INFO	Listening on port 57051
+1634663964020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666859773	Marionette	INFO	Stopped listening on port 57051
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4052543	Marionette	INFO	Listening on port 57124
+1634664053035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666859288	Marionette	INFO	Stopped listening on port 57124
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+vTools listening on ws://localhost:57186/devtools/browser/0a5743df-d275-4718-a1e9-59c5dfb7a2b5
+1634664215650	Marionette	INFO	Listening on port 57191
+1634664215713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666858775	Marionette	INFO	Stopped listening on port 57191
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4244389	Marionette	INFO	Listening on port 57261
+1634664244536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666858249	Marionette	INFO	Stopped listening on port 57261
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4310380	Marionette	INFO	Listening on port 57332
+1634664310811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666857564	Marionette	INFO	Stopped listening on port 57332
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4343661	Marionette	INFO	Listening on port 57402
+1634664343927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634666855964	Marionette	INFO	Stopped listening on port 57402
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+vTools listening on ws://localhost:57648/devtools/browser/90906ccb-eb81-4b00-aa8f-ad813a21bf02
+1634664656740	Marionette	INFO	Listening on port 57653
+1634664656995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634664663609	Marionette	INFO	Stopped listening on port 57653
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634664792679	geckodriver	INFO	Listening on 127.0.0.1:57737
+1634664795757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57738" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileJmNFiv"
+1634664796133	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileJmNFiv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57738/devtools/browser/4451597b-2e84-4e0a-91ac-a3b7de8976c4
+1634664799144	Marionette	INFO	Listening on port 57746
+1634664799433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634665302517	Marionette	INFO	Stopped listening on port 57746
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileAijUyY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57972/devtools/browser/75e72d41-dfc6-41b9-9906-fad8ca4f89f3
+1634665024724	Marionette	INFO	Listening on port 57977
+1634665025038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634665039591	Marionette	INFO	Stopped listening on port 57977
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634665312075	geckodriver	INFO	Listening on 127.0.0.1:58193
+1634665315141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58194" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileCx8ah6"
+1634665315499	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileCx8ah6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58194/devtools/browser/b86a5f0e-3423-4468-97db-1fa076dc5089
+1634665318501	Marionette	INFO	Listening on port 58199
+1634665318804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 396: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634665339082	Marionette	INFO	Stopped listening on port 58199
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634666580747	geckodriver	INFO	Listening on 127.0.0.1:58977
+1634666583783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58978" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile9Tw7Ga"
+1634666584140	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofile9Tw7Ga\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58978/devtools/browser/dbb25cec-1b7f-4cc6-a051-2e67abe2a4b4
+1634666587121	Marionette	INFO	Listening on port 58983
+1634666587470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 396: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634666613179	Marionette	INFO	Stopped listening on port 58983
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634666753852	geckodriver	INFO	Listening on 127.0.0.1:59241
+1634666756911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59242" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileDbwTEX"
+1634666757280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileDbwTEX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59242/devtools/browser/3c0e8e03-ffed-45a7-b93a-8a4b9f81802c
+1634666760338	Marionette	INFO	Listening on port 59247
+1634666760583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 396: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634666785304	Marionette	INFO	Stopped listening on port 59247
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634736370046	geckodriver	INFO	Listening on 127.0.0.1:61063
+1634736373109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61064" "-no-remote" "-profile" "C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileWW348g"
+1634736373557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\maxgu\\AppData\\Local\\Temp\\rust_mozprofileWW348g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61064/devtools/browser/feb9b5bf-e007-41a0-9eb6-6ff4c663142d
+1634736376422	Marionette	INFO	Listening on port 61069
+1634736376819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aanbod.ymere.nl/typo3temp/compressor/merged-7a25fb6ba36a4aba44ecec3b14f475e2-d76d310154cb0dfa18730664fa4f45d0.js.gzip?1632588486, line 7220: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PTZT8KP, line 396: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1634736398411	Marionette	INFO	Stopped listening on port 61069
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 25660, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

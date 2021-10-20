@@ -1,6 +1,11 @@
+import time
+
 from selenium.webdriver import Firefox, FirefoxProfile
 
 from ymere_checker import YmereChecker
+from vestada_checker import VestadaChecker
+from funda_checker import FundaChecker
+from ikwilhuren_checker import IkWilHurenChecker
 
 from notifier import Notifier
 
@@ -8,12 +13,17 @@ if __name__ == "__main__":
     # instantiate error notifier
     error_notifier = Notifier(['maxguillaume20@gmail.com'])
 
-    # instantiate website checkers
-    checker_classes = [YmereChecker]
-    checkers = [checker_class() for checker_class in checker_classes]
+    # instantiate website listings
+    checkers = [
+        YmereChecker(),
+        VestadaChecker(),
+        FundaChecker(),
+        IkWilHurenChecker()
+    ]
 
     profile = FirefoxProfile()
     driver = Firefox(firefox_profile=profile)
+    time.sleep(1)
 
     # check each of the rental websites
     checkers_with_new_listings = []
@@ -33,11 +43,11 @@ if __name__ == "__main__":
 
     # if new listings are available, send a notification
     if len(checkers_with_new_listings) > 0:
-        new_listing_notifier = Notifier(['maxguillaume20@gmail.com'])
-        subject = f"New listings from: {','.join([checker.id for checker in checkers_with_new_listings])}"
+        new_listing_notifier = Notifier(['maxguillaume20@gmail.com', 'm.simkovicova@uva.nl'])
+        subject = f"New listings from: {', '.join([checker.id for checker in checkers_with_new_listings])}"
         content = ''
         for checker in checkers_with_new_listings:
             content += f"{checker.id}:\n"
-            for new_listing in checker.current_listings:
-                content += f"\t{new_listing}\n"
+            for i, new_listing in enumerate(checker.current_listings):
+                content += f"\t{new_listing}\n\t{checker.listing_links[i]}\n\n"
         new_listing_notifier.send_email(subject, content)

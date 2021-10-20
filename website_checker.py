@@ -1,8 +1,6 @@
 from selenium.webdriver import Firefox
 from bs4 import BeautifulSoup
-from twilio.rest import Client
 import time
-
 
 
 class WebsiteChecker(object):
@@ -15,11 +13,16 @@ class WebsiteChecker(object):
         self.previous_listings_file_name = ''
         self.current_listings = []
         self.previous_listings = []
+        self.listing_links = []
+        self.soup = None
 
     def load(self, driver: Firefox):
         self.set_parameters()
         self.load_previous_listings()
         self.driver = driver
+        self.driver.get(self.search_url)
+        time.sleep(3)
+        self.soup = BeautifulSoup(self.driver.page_source)
 
     def load_previous_listings(self):
         with open(self.previous_listings_file_name) as in_file:
@@ -31,13 +34,23 @@ class WebsiteChecker(object):
         pass
 
     def parse(self):
-        self.driver.get(self.search_url)
-        time.sleep(2)
-        soup = BeautifulSoup(self.driver.page_source, features="lxml")
-        listings = soup.find_all(attrs=self.listings_search)
-        for listing in listings:
-            if listing.text not in self.previous_listings:
-                self.current_listings.append(listing.text)
+        listings = self.soup.find_all(attrs=self.listings_search)
+        for i, listing in enumerate(listings):
+            if self.listing_is_applicable(listing, i):
+                listing_address = self.get_listing_address(listing)
+                self.current_listings.append(listing_address)
+                link = self.get_listing_link(listing)
+                self.listing_links.append(link)
+
+    def listing_is_applicable(self, listing, listing_index):
+        listing_address = self.get_listing_address(listing)
+        return listing_address not in self.previous_listings
+
+    def get_listing_address(self, listing):
+        return listing.text
+
+    def get_listing_link(self, listing):
+        pass
 
     def exit(self):
         self.write_previous_listings_file()
